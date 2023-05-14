@@ -1,0 +1,31 @@
+.vacancies{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  padding: 30px 10px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.vacancies__link{
+  color: #eca94c;
+  text-decoration: none;
+}
+
+
+.vacancies__img {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .vacancies {
+    flex-direction: column;
+  }
+  .vacancies__block {
+    width: 100%;
+  }
+}

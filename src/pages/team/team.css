@@ -1,0 +1,32 @@
+.team {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 30px 10px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.team__info{
+  max-width: 600px;
+}
+
+.team__block {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: start;
+  border-top: 2px solid #eca94c;
+  flex-wrap: wrap;
+}
+
+.team__subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}

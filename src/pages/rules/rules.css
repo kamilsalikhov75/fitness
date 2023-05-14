@@ -1,0 +1,25 @@
+.rules{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  padding: 30px 10px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.rules__img {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .rules {
+    flex-direction: column;
+  }
+  .rules__block {
+    width: 100%;
+  }
+}
