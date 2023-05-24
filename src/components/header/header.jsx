@@ -30,9 +30,9 @@ function Header() {
         <Link to="/team" className="header__navigation-link">
           Наша команда
         </Link>
-        {/* <Link to="/timetable" className="header__navigation-link">
+        <Link to="/timetable" className="header__navigation-link">
           Расписание
-        </Link> */}
+        </Link>
       </nav>
     </header>
   );

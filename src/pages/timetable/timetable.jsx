@@ -1,28 +1,13 @@
-import './timetable.css';
+import { Table } from "antd";
+import "./timetable.css";
+import { columns, data } from "./timetable-meta";
 
 function Timetable() {
   return (
     <div className="timetable">
       <div className="timetable__block">
         <h1 className="title">Расписание занятий</h1>
-        <p className="text__block">
-          Необходимо соблюдать правила общей и личной гигиены (обязательно
-          принимать душ перед посещением бассейна/сауны/хамама)
-        </p>
-        <p className="text__block">
-          Запрещается посещение клуба в болезненном состоянии.
-        </p>
-        <p className="text__block">
-          Члены клуба в возрасте от 12 до 14 лет, могут заниматься в
-          кардио-тренажерном зале только в сопровождении родителей (с
-          письменного заявления направленного администрации клуба), либо под
-          руководством персонального тренера.
-        </p>
-        <p className="text__block">
-          Детям старше 4 лет запрещается находиться во взрослых раздевалках
-          противоположного пола. Необходимо пользоваться отдельной детской
-          раздевалкой.
-        </p>
+        <Table columns={columns} dataSource={data} pagination={false} />
       </div>
     </div>
   );
