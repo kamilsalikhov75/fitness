@@ -7,7 +7,12 @@ function Timetable() {
     <div className="timetable">
       <div className="timetable__block">
         <h1 className="title">Расписание занятий</h1>
-        <Table columns={columns} dataSource={data} pagination={false} />
+        <Table
+          scroll={{ x: "1200px" }}
+          columns={columns}
+          dataSource={data}
+          pagination={false}
+        />
       </div>
     </div>
   );
