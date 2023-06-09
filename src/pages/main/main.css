@@ -33,6 +33,7 @@
     flex-direction: column;
   }
   .main__block {
+    justify-content: center;
     width: 100%;
   }
 }
